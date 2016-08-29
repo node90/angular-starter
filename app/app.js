@@ -59,5 +59,6 @@ angular.module('MyApp', ['ngRoute', 'satellizer'])
     if ($window.localStorage.user) {
       $rootScope.currentUser = JSON.parse($window.localStorage.user);
     }
+    console.log('run')
   });
 })();
